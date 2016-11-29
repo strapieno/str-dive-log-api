@@ -1,6 +1,7 @@
 <?php
 namespace Strapieno\DiveLog\Api;
 
+
 use Zend\ModuleManager\Feature\HydratorProviderInterface;
 use Zend\ModuleManager\Feature\InputFilterProviderInterface;
 use Zend\Mvc\MvcEvent;
