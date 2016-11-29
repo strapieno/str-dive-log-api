@@ -36,8 +36,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Strapieno\\User\\Api\\": "src/",
-      "Strapieno\\User\\ApiTest\\": "tests/"
+      "Strapieno\\DiveLog\\Api\\": "src/",
+      "Strapieno\\DiveLog\\ApiTest\\": "tests/"
     },
     "classmap": [
       "./Module.php"
