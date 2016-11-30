@@ -1,6 +1,7 @@
 <?php
 namespace Strapieno\DiveLog\Api\V1\Hydrator;
 
+use Matryoshka\Model\Hydrator\Strategy\DateTimeStrategy;
 use Strapieno\Utils\Hydrator\DateHystoryHydrator;
 
 /**
