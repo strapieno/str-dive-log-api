@@ -31,7 +31,8 @@ return [
                 'Strapieno\DiveLog\Api\V1\Rest\ConnectedResource' => [
                     'model' => 'Strapieno\DiveLog\Model\DiveLogModelService',
                     'collection_criteria' => 'Strapieno\DiveLog\Model\Criteria\DiveLogCollectionCriteria',
-                    'entity_criteria' => 'Strapieno\Model\Criteria\NotIsolatedActiveRecordCriteria'
+                    'entity_criteria' => 'Strapieno\Model\Criteria\NotIsolatedActiveRecordCriteria',
+                    'hydrator' => 'DiveLogApiHydrator',
             ]
         ]
     ],
