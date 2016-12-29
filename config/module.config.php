@@ -86,9 +86,9 @@ return [
     ],
     'zf-content-validation' => [
         'Strapieno\DiveLog\Api\V1\Rest\Controller' => [
-            'input_filter' => 'Strapieno\DiveLog\Api\InputFilter\DefaultInputFilter',
+            'input_filter' => 'Strapieno\DiveLog\Model\InputFilter\DefaultInputFilter',
             'POST' => 'Strapieno\DiveLog\Api\InputFilter\PostInputFilter',
-            'PATCH' => 'Strapieno\DiveLog\Api\InputFilter\PatchInputFilter'
+            'PUT' => 'Strapieno\DiveLog\Api\InputFilter\PutInputFilter'
         ]
     ],
     'strapieno_input_filter_specs' => [
