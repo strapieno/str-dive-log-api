@@ -95,7 +95,7 @@ return [
         'Strapieno\DiveLog\Api\InputFilter\PostInputFilter' => [
             'merge' => 'Strapieno\DiveLog\Model\InputFilter\DefaultInputFilter',
         ],
-        'Strapieno\DiveLog\Api\InputFilter\PatchInputFilter' => [
+        'Strapieno\DiveLog\Api\InputFilter\PutInputFilter' => [
             'merge' => 'Strapieno\DiveLog\Model\InputFilter\DefaultInputFilter',
         ]
     ]
